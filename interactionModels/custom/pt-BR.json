@@ -1,0 +1,77 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "oi meu equinox",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "bluetoothIntent",
+          "slots": [],
+          "samples": [
+            "alexa como bluetooth",
+            "conectar bluetooth",
+            "bluetooth",
+            "como conectar bluetooth"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ofertaIntent",
+          "slots": [],
+          "samples": [
+            "oferta equinox",
+            "oferta para o meu equinox",
+            "alguma oferta para meu equinox",
+            "alguma oferta para meu chevrolet",
+            "oferta",
+            "oferta carro",
+            "alguma oferta",
+            "oferta para meu carro",
+            "alguma oferta para meu carro",
+            "Tem alguma oferta para meu carro"
+          ]
+        },
+        {
+          "name": "obrigadoIntent",
+          "slots": [],
+          "samples": [
+            "obrigada alexa",
+            "obrigada ",
+            "obrigado alexa",
+            "obrigado"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "bluetooth",
+                "synonyms": [
+                  "bt"
+                ]
+              }
+            }
+          ],
+          "name": "bluetooth"
+        }
+      ]
+    }
+  },
+  "version": "14"
+}
